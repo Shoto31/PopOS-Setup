@@ -74,35 +74,30 @@ sudo apt install gnome-tweaks -y
 #### 1. Minimize Button and Button Placement
 Restores the minimize and the maximize button.
 #### 2. Battery Percentage
-Shows the amount of battery remaining in percent. Doesn't work for desktop pc.
-#### 3. Activity Hot Corner and Format time
-The activity hot corner enables the hot corner where the button Activity is placed. So rather than clicking the button just touch the edge.
+Shows the amount of battery remaining in percent. Doesn't work for desktop pc. I like to keep it here even if I use a desktop.
+
 
 ## 2. Preferred Apps
 Pop has apps that you need. But, if you do not like them, you can also get alternatives. <br />
 ### Snap Vs Flatpak (Package Managers except apt, dpkg)
 Snap can incorporate more apps than Flatpak. It runs how the developer wants it to. Some even say go as far as to say, "Snap is the future". But, currently, Flatpak outperforms Snap, for the most part, that is why I don't prefer Snap but, still, it's your choice. <br />
 ### Browser
-#### 1. [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-The Browser that I use in any of my setups is always Firefox, and it's an amazing browser, it helps that I am currently trying to take anything related to Google out of my setups. <br />
-By default Firefox comes pre installed in any of the distros I tried so you don't need to install anything. <br />
+#### 1. [Thorium](https://thorium.rocks/welcome/)
+The Browser that I use in any of my setups is Thorium I recently changed to it after watching a CTT video and it's an amazing browser, it helps that I am currently trying to take anything related to Google out of my setups. <br />
+To install it simply go to their website and download the package. <br />
 
 #### Useful Extensions
 Generally, these extensions exist for almost all browsers. <br />
 
 1. [**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
 
-2. [**ClearURLs**](https://addons.mozilla.org/pt-PT/firefox/addon/clearurls/) - ClearURLs removes any tracking elements from URLs.
+2. [**WebP image converter**](https://addons.mozilla.org/pt-PT/firefox/addon/webp-image-converter/) - I use this one because some times when I'm downloading any pictures sometimes it will save them as .webp, and in the case that happens I use this eextension and I can save in .png or .jpg.
 
-3. [**HTTPS Everywhere**](https://addons.mozilla.org/pt-PT/firefox/addon/https-everywhere/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=recommended) - Encrypt the web! HTTPS Everywhere is a Firefox extension to protect your communications by enabling HTTPS encryption automatically on sites that are known to support it, even when you type URLs or follow links that omit the https: prefix.
+3. [**GNOME Shell integration**](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) - This extension provides integration with GNOME Shell and the corresponding extensions repository, make it easy to add extensions via your browser.
 
-4. [**LocalCDN**](https://addons.mozilla.org/pt-PT/firefox/addon/localcdn-fork-of-decentraleyes/) - Emulates remote frameworks (e.g. jQuery, Bootstrap, AngularJS) and delivers them as local resource. Prevents unnecessary 3rd party requests to Google, StackPath, MaxCDN and more. Prepared rules for uBlock Origin/uMatrix.
+4. [**Reddit Enhancement Suite**](https://addons.mozilla.org/pt-PT/firefox/addon/reddit-enhancement-suite/) - I'm an avid user of reddit, but I dislike the new look and use the old reddit and with this extension comes an amazing amount of features that can enhance your Reddit experience.
 
-5. [**WebP image converter**](https://addons.mozilla.org/pt-PT/firefox/addon/webp-image-converter/) - I use this one because some times when I'm downloading any pictures sometimes it will save them as .webp, and in the case that happens I use this eextension and I can save in .png or .jpg.
-
-6. [**GNOME Shell integration**](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) - This extension provides integration with GNOME Shell and the corresponding extensions repository, make it easy to add extensions via your browser.
-
-7. [**Reddit Enhancement Suite**](https://addons.mozilla.org/pt-PT/firefox/addon/reddit-enhancement-suite/) - I'm an avid user of reddit, but I dislike the new look and use the old reddit and with this extension comes an amazing amount of features that can enhance your Reddit experience.
+5. []
 
 ### Email Client
 Currently as my email client I use Mailspring.
