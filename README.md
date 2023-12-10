@@ -11,19 +11,17 @@ Changed some stuff and deleted others to better fit my use case.
 
 ## [Post Installation](#1-post-installation)
 - **[Update your System](#update-your-system)**
-- **[Gnome Tweaks & the ones I use](#gnome-tweaks--the-ones-i-use) -> [Minimize Button and Button Placement](#1-minimize-button-and-button-placement), [Battery Percentage](#2-battery-percentage), [Optimizing Font](#3-optimizing-font), [Activity Hot Corner](#4-activity-hot-corner-and-format-time)**
+- **[Gnome Tweaks & the ones I use](#gnome-tweaks--the-ones-i-use) -> [Minimize Button and Button Placement](#1-minimize-button-and-button-placement), [Battery Percentage](#2-battery-percentage)**
 
 ## [Preferred Apps](#2-preferred-apps)
-- **[Snap Vs Flatpak](#snap-vs-flatpak-package-managers-except-apt-dpkg)**
-- **[Browser](#browser) -> [Firefox](#1-firefox), [Extensions](#extensions-i-use)**
-- **[Email Client](#email-client)->  [MailSpring](#3-mailspring)**
-- **[Video Tools](#video-tools) -> [VLC](#1-vlc), [OBS Studio](#2-obs-studio), [Peek](#3-peek)**
-- **[Audio Tools](#audio-tools) -> [PulseAudio Controls](#1-pulseaudio-controls), [PulseEffects](#2-pulseeffects), [Audacity](#3-audacity)**
+
+- **[Browser](#browser) -> [Thorium](#1-Thorium), [Extensions](#extensions-i-use)**
+- **[Video Tools](#video-tools) -> [VLC](#1-vlc)**
 - **[Office](#office) -> [Libre Office](#1-libreoffice)**
 - **[Social Apps](#social-apps) -> [Telegram](#1-telegram), [Discord](#2-discord)**
 - **[Programming Apps](#programming-apps) -> [Vim](#1-vim), [GitHub-Desktop](#3-github-desktop), [Visual Studio](#5-visual-studio)**
-- **[Entertainment Apps](#entertainment-apps) -> [Spotify](#1-spotify-for-music), [Steam](#2-steam-for-gaming), [Multimedia Codecs](#3-multimedia-codecs), [Lutris](#4-lutris)**
-- **[Other Apps](#other-apps) ->  [Wine](#2-wine-windows-apps), [Synaptic](#3-synaptic-package-manager), [Nautilus](#4-nautilus-admin-mode), [Timeshift](#5-timeshift), [Resource Monitor](#6-resource-monitor), [Firewall](#7-firewall)**
+- **[Entertainment Apps](#entertainment-apps) -> [SpoTube](#1-spotube), [Steam](#2-steam-for-gaming), [Multimedia Codecs](#3-multimedia-codecs), [Lutris](#4-lutris)**
+- **[Other Apps](#other-apps) ->  [Wine](#2-wine-windows-apps), [Synaptic](#3-synaptic-package-manager), [Firewall](#7-firewall)**
 - **[Debloat](#--debloat)**
 
 ## [Optimize Boot-time & Ram Usage](#3-optimize-boot-time--ram-usage)
