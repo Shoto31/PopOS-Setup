@@ -3,7 +3,6 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://github.com/themagicalmammal/howtopopbuntu/graphs/commit-activity)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat)](https://github.com/themagicalmammal/howtopopbuntu/pulls)
 
-###### This is done exclusively on Pop OS 20.04 but, has been tested on Ubuntu, most of these tweaks should work for every Ubuntu-based Distros out there.
 This is an extensive Guide on the set of things I use.
 
 Changed some stuff and deleted others to better fit my use case.
