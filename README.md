@@ -89,29 +89,18 @@ To install it simply go to their website and download the package. <br />
 #### Useful Extensions
 Generally, these extensions exist for almost all browsers. <br />
 
-1. [**uBlock Origin**](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
+1. [**uBlock Origin**](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) - uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
 
-2. [**WebP image converter**](https://addons.mozilla.org/pt-PT/firefox/addon/webp-image-converter/) - I use this one because some times when I'm downloading any pictures sometimes it will save them as .webp, and in the case that happens I use this eextension and I can save in .png or .jpg.
+2. [**WebP image converter**](https://chromewebstore.google.com/detail/webp-avif-image-converter/pbcfbdlbkdfobidmdoondbgdfpjolhci?pli=1) - I use this one because some times when I'm downloading any pictures sometimes it will save them as .webp, and in the case that happens I use this eextension and I can save in .png or .jpg.
 
 3. [**GNOME Shell integration**](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) - This extension provides integration with GNOME Shell and the corresponding extensions repository, make it easy to add extensions via your browser.
 
-4. [**Reddit Enhancement Suite**](https://addons.mozilla.org/pt-PT/firefox/addon/reddit-enhancement-suite/) - I'm an avid user of reddit, but I dislike the new look and use the old reddit and with this extension comes an amazing amount of features that can enhance your Reddit experience.
+4. [**Reddit Enhancement Suite**](https://chromewebstore.google.com/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep) - I'm an avid user of reddit, but I dislike the new look and use the old reddit and with this extension comes an amazing amount of features that can enhance your Reddit experience.
 
-5. []
+5. [**MAL Sync**] (https://chromewebstore.google.com/detail/mal-sync/kekjfbackdeiabghhcdklcdoekaanoel?hl=en) - I'm a big fan of anime and this amazing extension helps me keep track and updates the anime that I have watched, is watching and plan to watch all while watching on website.
 
 ### Email Client
-Currently as my email client I use Mailspring.
-[MailSpring](https://getmailspring.com/)
-Get the [deb file](https://github.com/Foundry376/Mailspring/releases) and try installing it. <br />
-If it throws gvfs dependency error. Follow these **Steps:**
-1. Install these libraries
-```bash
-sudo apt install libsecret-1-dev gconf2 python2 python-is-python2 -y
-```
-2. Install the deb,
-```bash
-sudo dpkg --ignore-depends=gvfs-bin -i mailspring*.deb
-```
+I use the Gmail website, I used to use mailspring but I found that it was easier just to use the website.
 
 **If you want to remove Geary**
 ```bash
@@ -129,43 +118,10 @@ Get rid of the stock video player
 ```bash
 sudo apt-get autoremove --purge totem* -y
 ```
-#### 2. [OBS Studio](https://obsproject.com/)
-OBS Studio is software designed for capturing, compositing, encoding, recording, and streaming video content, efficiently.
-```bash
-sudo apt install obs-studio -y
-```
-
-#### 3. [Peek](https://github.com/phw/peek)
-Peek is an recorder with with video recording, GIF recording and screenshot capabilities. <br />
-**Pop users don't need to add this repo.**
-```bash
-sudo add-apt-repository ppa:peek-developers/stable && sudo apt update
-sudo apt install peek -y
 ```
 
 ### Audio Tools
 #### 1. [PulseAudio Controls](https://www.freedesktop.org/wiki/Software/PulseAudio/)
-PulseAudio is an audio server. The audio in your apps passes through Pulse. So in that way, you can use several methods to handle these sounds ere you can hear them. It also optimizes the quality of your audio.
-```bash
-sudo apt install pavucontrol -y
-```
-To learn how to control your audio, go [here](controlling-audio-devices).
-#### 2. [PulseEffects](https://github.com/wwmm/pulseeffects)
-Audio effects for Pulseaudio applications. This helps add specialized effects for each application individually and thus creates multiple profiles for different applications.
-```bash
-sudo apt install pulseeffects -y
-```
-**This might add a lot of desktop icons.**<br />
-#### 3. [Audacity](https://www.audacityteam.org/)
-Audacity is open-source software, easy-to-use, multi-track audio editor, and allows users to record audio and edit music clips.
-```bash
-flatpak install org.audacityteam.Audacity -y
-```
-#### 4. [Ardour](https://ardour.org/)
-Ardour is a recorder and digital audio workstation app. It's made to be suitable for professional use.
-```bash
-sudo apt install ardour -y
-
 
 ### Office
 I use LibreOffice as my Office suite.
@@ -202,23 +158,9 @@ If this doesn't work, get the deb [here](https://github.com/shiftkey/desktop/rel
 Go through [this](https://code.visualstudio.com/docs/setup/linux).
 
 ### Entertainment Apps
-#### 1. Spotify for Music
-**Supports Ad-block and Spicetify-cli**
-```bash
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt update && sudo apt install spotify-client -y
-```
-Features that can be added, <br />
-##### 1. Spicetify-Cli & Themes
 
-I use the this scripts to install [themagicalmammal/howtopopbuntu] (https://github.com/themagicalmammal/howtopopbuntu)
-
-To install themes for spotify, you can check [this](https://github.com/khanhas/spicetify-cli), to install different themes, go [here](https://github.com/morpheusthewhite/spicetify-themes) out. If you have troubles going through the steps of spicetify-cli. Here is a script you can use.
-```bash
-curl -fsSL https://raw.githubusercontent.com/themagicalmammal/howtopopbuntu/master/spicetify.sh | bash
-```
-You need to log-in & out after this. <br />
+#### 1. [SpoTube](https://github.com/KRTirtho/spotube) An open source, cross-platform Spotify client compatible across multiple platforms
+utilizing Spotify's data API and YouTube (or Piped.video or JioSaavn) as an audio source, eliminating the need for Spotify Premium
 
 #### 2. Steam for Gaming
 ```bash
@@ -228,7 +170,6 @@ If it doesn't work, turn on multiverse.
 ```bash
 sudo add-apt-repository multiverse && sudo apt update
 ```
-
 I also use [Glorious Eggroll] (https://github.com/GloriousEggroll/proton-ge-custom) build of proton.
 
 #### 3. Multimedia Codecs
@@ -561,17 +502,6 @@ cargo install macchina
 #### 2. Shell Config 
 I'm currently using the [Spaceship prompt](https://github.com/denysdovhan/spaceship-prompt)
 
-### TLP
-TLP is a utility for battery optimization on laptops. TLP comes with a default configuration which is perfectly tuned. The utility works by optimizing the power used by hardware devices while your laptop is running on its battery.
-```bash
-sudo apt install tlp
-sudo tlp start
-```
-If you need a graphical interface to optimise or control it.
-```bash
-sudo add-apt-repository ppa:linuxuprising/apps && sudo apt update
-sudo apt install tlpui
-```
 
 ### Disable Frequents
 Disable Frequents Tab in Gnome app menu. This option is not required for Gnome > 3.38.
@@ -596,7 +526,7 @@ In my setups I always use the Tile windows feature.
 
 ### Customization
 #### 1. We need to add gnome-shell-integration for Firefox.
-[Gnome Shell Extension](https://addons.mozilla.org/pt-PT/firefox/addon/gnome-shell-integration/)
+[Gnome Shell Extension](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
 
 #### 2. Then go to [Gnome.org](https://extensions.gnome.org/) and get your extensions. <br />
 #### Important Extensions
@@ -621,8 +551,6 @@ To get the start button I [have](https://github.com/themagicalmammal/howtopopbun
 ## Inspiration
 I decided to do this as a guide mainly for myself,  since I always forget some tweaks, extensions or applications, but my inspiracion was [The Magical Mammal/How to popbuntu] (https://github.com/themagicalmammal/howtopopbuntu#6-resource-monitor) you can check his for a more detailed guide.
 
-## Discussion
-To post suggestions or ask questions. Go to [Discussions](https://github.com/themagicalmammal/howtopopbuntu/discussions).
 
 ## Thanks for Suggestions
 1. [GGG_246](https://www.reddit.com/user/GGG_246/) - A lot of stuff I didn't know. To check what he did go [here](https://www.reddit.com/r/Ubuntu/comments/jm1gvw/a_guide_to_setting_up_popubuntu/gasmuhg?utm_source=share&utm_medium=web2x&context=3) & [here](https://www.reddit.com/r/Ubuntu/comments/jm1gvw/a_guide_to_setting_up_popubuntu/gata2s4?utm_source=share&utm_medium=web2x&context=3) & a looooot more stuff.
