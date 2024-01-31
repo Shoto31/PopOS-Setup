@@ -1,27 +1,18 @@
-# How to Popbuntu?
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/themagicalmammal/howtopopbuntu/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)](https://github.com/themagicalmammal/howtopopbuntu/graphs/commit-activity)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-blue.svg?style=flat)](https://github.com/themagicalmammal/howtopopbuntu/pulls)
-
-This is an extensive Guide on the set of things I use.
-
-Changed some stuff and deleted others to better fit my use case.
-
 # Index
 
 ## [Post Installation](#1-post-installation)
 - **[Update your System](#update-your-system)**
-- **[Gnome Tweaks & the ones I use](#gnome-tweaks--the-ones-i-use) -> [Minimize Button and Button Placement](#1-minimize-button-and-button-placement), [Battery Percentage](#2-battery-percentage)**
+- **[Gnome Tweaks & the ones I use](#gnome-tweaks--the-ones-i-use) -> [Minimize Button and Button Placement](#1-minimize-button-and-button-placement), [Battery Percentage](#2-battery-percentage), [Optimizing Font](#3-optimizing-font), [Activity Hot Corner](#4-activity-hot-corner-and-format-time)**
 
 ## [Preferred Apps](#2-preferred-apps)
-
-- **[Browser](#browser) -> [Thorium](#1-Thorium), [Extensions](#extensions-i-use)**
+- **[Browser](#browser) -> [Firefox](#1-firefox), [Extensions](#extensions-i-use)**
 - **[Video Tools](#video-tools) -> [VLC](#1-vlc)**
+- **[Audio Tools](#audio-tools) -> [PulseAudio Controls](#1-pulseaudio-controls), [PulseEffects](#2-pulseeffects), [Audacity](#3-audacity)**
 - **[Office](#office) -> [Libre Office](#1-libreoffice)**
-- **[Social Apps](#social-apps) -> [Telegram](#1-telegram), [Discord](#2-discord)**
-- **[Programming Apps](#programming-apps) -> [Vim](#1-vim), [GitHub-Desktop](#3-github-desktop), [Visual Studio](#5-visual-studio)**
-- **[Entertainment Apps](#entertainment-apps) -> [SpoTube](#1-spotube), [Steam](#2-steam-for-gaming), [Multimedia Codecs](#3-multimedia-codecs), [Lutris](#4-lutris)**
-- **[Other Apps](#other-apps) ->  [Wine](#2-wine-windows-apps), [Synaptic](#3-synaptic-package-manager), [Firewall](#7-firewall)**
+- **[Social Apps](#social-apps) -> [Discord](#1-discord)**
+- **[Programming Apps](#programming-apps) -> [Vim](#1-vim), [VSCoudium](#2-vscodium)**
+- **[Entertainment Apps](#entertainment-apps) -> [Spotify](#1-spotify-for-music), [Steam](#2-steam-for-gaming), [Multimedia Codecs](#3-multimedia-codecs), [Lutris](#4-lutris)**
+- **[Other Apps](#other-apps) ->  [Wine](#2-wine-windows-apps), [Synaptic](#3-synaptic-package-manager), [Nautilus](#4-nautilus-admin-mode), [Timeshift](#5-timeshift), [Resource Monitor](#6-resource-monitor), [Firewall](#7-firewall)**
 - **[Debloat](#--debloat)**
 
 ## [Optimize Boot-time & Ram Usage](#3-optimize-boot-time--ram-usage)
@@ -31,13 +22,10 @@ Changed some stuff and deleted others to better fit my use case.
 - **[Disable Pop Shop on boot](#disabling-pop-shop-on-boot)**
 - **[Clearing buff/cache](#clearing-buffcache)**
 - **[Optimizing the boot](#optimizing-the-boot)**
-- **[Custom Kernel](#custom-kernel)**
 - **[Removing Custom Kernel](#getting-rid-of-custom-kernel)**
 - **[Final Boot-Time](#final-boot-time)**
 
 ## [Miscellaneous](#4-miscellaneous)
-- **[Terminal Mods](#terminal-mods) -> [Neofetch](#1-neofetch), [Shell Config](#2-shell-config)**
-- **[TLP](#tlp)**
 - **[Disable Frequents](#disable-frequents)**
 - **[Clean your System](#clean-your-system)**
 - **[Night Light](#night-light)**
@@ -74,38 +62,33 @@ sudo apt install gnome-tweaks -y
 #### 1. Minimize Button and Button Placement
 Restores the minimize and the maximize button.
 #### 2. Battery Percentage
-Shows the amount of battery remaining in percent. Doesn't work for desktop pc. I like to keep it here even if I use a desktop.
-
+Shows the amount of battery remaining in percent. Doesn't work for desktop pc.
+#### 3. Disable Activity Hot Corner and Format time
+The activity hot corner enables the hot corner where the button Activity is placed. So rather than clicking the button just touch the edge, I normally just disble this since I don't use it.
 
 ## 2. Preferred Apps
 Pop has apps that you need. But, if you do not like them, you can also get alternatives. <br />
-### Snap Vs Flatpak (Package Managers except apt, dpkg)
-Snap can incorporate more apps than Flatpak. It runs how the developer wants it to. Some even say go as far as to say, "Snap is the future". But, currently, Flatpak outperforms Snap, for the most part, that is why I don't prefer Snap but, still, it's your choice. <br />
+
 ### Browser
-#### 1. [Thorium](https://thorium.rocks/welcome/)
-The Browser that I use in any of my setups is Thorium I recently changed to it after watching a CTT video and it's an amazing browser, it helps that I am currently trying to take anything related to Google out of my setups. <br />
-To install it simply go to their website and download the package. <br />
+#### 1. [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+The Browser that I use in any of my setups is always Firefox, and it's an amazing browser, it helps that I am currently trying to take anything related to Google out of my setups. <br />
+By default Firefox comes pre installed in any of the distros I tried so you don't need to install anything. <br />
 
 #### Useful Extensions
 Generally, these extensions exist for almost all browsers. <br />
 
-1. [**uBlock Origin**](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) - uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
+1. **uBlock Origin**  [Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) - uBlock Origin is not an "ad blocker", it's a wide-spectrum content blocker with CPU and memory efficiency as a primary feature.
 
-2. [**WebP image converter**](https://chromewebstore.google.com/detail/webp-avif-image-converter/pbcfbdlbkdfobidmdoondbgdfpjolhci?pli=1) - I use this one because some times when I'm downloading any pictures sometimes it will save them as .webp, and in the case that happens I use this eextension and I can save in .png or .jpg.
+2. **WebP image converter** [Firefox] (https://addons.mozilla.org/pt-PT/firefox/addon/webp-image-converter/) - I use this one because some times when I'm downloading any pictures sometimes it will save them as .webp, and in the case that happens I use this eextension and I can save in .png or .jpg.
 
-3. [**GNOME Shell integration**](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) - This extension provides integration with GNOME Shell and the corresponding extensions repository, make it easy to add extensions via your browser.
+3. **GNOME Shell integration** [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) - This extension provides integration with GNOME Shell and the corresponding extensions repository, make it easy to add extensions via your browser.
 
-4. [**Reddit Enhancement Suite**](https://chromewebstore.google.com/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep) - I'm an avid user of reddit, but I dislike the new look and use the old reddit and with this extension comes an amazing amount of features that can enhance your Reddit experience.
+4. **Reddit Enhancement Suite** [Firefox] (https://addons.mozilla.org/pt-PT/firefox/addon/reddit-enhancement-suite/) - I'm an avid user of reddit, but I dislike the new look and use the old reddit and with this extension comes an amazing amount of features that can enhance your Reddit experience.
 
-5. [**MAL Sync**] (https://chromewebstore.google.com/detail/mal-sync/kekjfbackdeiabghhcdklcdoekaanoel?hl=en) - I'm a big fan of anime and this amazing extension helps me keep track and updates the anime that I have watched, is watching and plan to watch all while watching on website.
+5. **Bitwarden - Password Manager** [Firefox] (https://addons.mozilla.org/pt-PT/firefox/addon/bitwarden-password-manager/) - This is my go to password manager, it's an amazing one.
 
 ### Email Client
-I use the Gmail website, I used to use mailspring but I found that it was easier just to use the website.
-
-**If you want to remove Geary**
-```bash
-sudo apt-get autoremove --purge geary* -y
-```
+In all my setups I normally don't use an email client I simply use the website for Gmail
 
 ### Video Tools
 #### 1. [VLC](https://www.videolan.org/index.html)
@@ -118,10 +101,26 @@ Get rid of the stock video player
 ```bash
 sudo apt-get autoremove --purge totem* -y
 ```
-```
+
 
 ### Audio Tools
 #### 1. [PulseAudio Controls](https://www.freedesktop.org/wiki/Software/PulseAudio/)
+PulseAudio is an audio server. The audio in your apps passes through Pulse. So in that way, you can use several methods to handle these sounds ere you can hear them. It also optimizes the quality of your audio.
+```bash
+sudo apt install pavucontrol -y
+```
+To learn how to control your audio, go [here](controlling-audio-devices).
+#### 2. [PulseEffects](https://github.com/wwmm/pulseeffects)
+Audio effects for Pulseaudio applications. This helps add specialized effects for each application individually and thus creates multiple profiles for different applications.
+```bash
+sudo apt install pulseeffects -y
+```
+**This might add a lot of desktop icons.**<br />
+#### 3. [Audacity](https://www.audacityteam.org/)
+Audacity is open-source software, easy-to-use, multi-track audio editor, and allows users to record audio and edit music clips.
+```bash
+flatpak install org.audacityteam.Audacity -y
+```
 
 ### Office
 I use LibreOffice as my Office suite.
@@ -131,12 +130,7 @@ sudo apt install libreoffice-gnome libreoffice
 <br /> <br />
 
 ### Social Apps
-#### 1. Telegram
-Official Telegram client
-```bash
-flatpak install org.telegram.desktop -y
-```
-#### 2. Discord
+####  Discord
 Official Discord client
 ```bash
 flatpak install com.discordapp.Discord -y
@@ -147,20 +141,27 @@ flatpak install com.discordapp.Discord -y
 ```bash
 sudo apt install vim
 ```
-#### 3. GitHub-Desktop
-A seamless way to contribute to projects on GitHub.
-```bash
-sudo apt install git github-desktop -y
-```
-If this doesn't work, get the deb [here](https://github.com/shiftkey/desktop/releases).
-
-#### 5. Visual Studio
-Go through [this](https://code.visualstudio.com/docs/setup/linux).
+#### 2. VSCodium
+Go through [this](https://vscodium.com/).
 
 ### Entertainment Apps
+#### 1. Spotify for Music
+**Supports Ad-block and Spicetify-cli**
+```bash
+curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt update && sudo apt install spotify-client -y
+```
+Features that can be added, <br />
+##### 1. Spicetify-Cli & Themes
 
-#### 1. [SpoTube](https://github.com/KRTirtho/spotube) An open source, cross-platform Spotify client compatible across multiple platforms
-utilizing Spotify's data API and YouTube (or Piped.video or JioSaavn) as an audio source, eliminating the need for Spotify Premium
+I use the this scripts to install [themagicalmammal/howtopopbuntu] (https://github.com/themagicalmammal/howtopopbuntu)
+
+To install themes for spotify, you can check [this](https://github.com/khanhas/spicetify-cli), to install different themes, go [here](https://github.com/morpheusthewhite/spicetify-themes) out. If you have troubles going through the steps of spicetify-cli. Here is a script you can use.
+```bash
+curl -fsSL https://raw.githubusercontent.com/themagicalmammal/howtopopbuntu/master/spicetify.sh | bash
+```
+You need to log-in & out after this. <br />
 
 #### 2. Steam for Gaming
 ```bash
@@ -170,6 +171,7 @@ If it doesn't work, turn on multiverse.
 ```bash
 sudo add-apt-repository multiverse && sudo apt update
 ```
+
 I also use [Glorious Eggroll] (https://github.com/GloriousEggroll/proton-ge-custom) build of proton.
 
 #### 3. Multimedia Codecs
@@ -228,14 +230,8 @@ Timeshift is a system restore tool for Linux. Creates a file system snapshot usi
 ```bash
 sudo apt install timeshift -y
 ```
-#### 6. Bashtop
-An advanced utility that shows usage and stats for processor, memory, disks, network, and processes.
-**Repo already exists in Pop 20.10**
-```bash
-sudo add-apt-repository ppa:bashtop-monitor/bashtop && sudo apt update
-sudo apt install bashtop -y
-```
-#### 7. Firewall
+
+#### 6. Firewall
 #### - Gufw
 GUFW is a graphical utility for managing Uncomplicated Firewall (UFW). This is pretty easy to use appication with bunch of settings which you can set according to your preference.
 ```bash
@@ -274,15 +270,6 @@ sudo apt-get autoremove --purge yelp* -y
 - **Gnome Power Manager** - can show historical and current battery information and programs waking up that use power. I never use it.
 ```bash
 sudo apt remove --purge gnome-power-manager -y
-```
-- **Pinyin (Only for Chinese users)** - Pinyin is the Romanization of Chinese characters based on their pronunciation.
-```bash
-sudo apt autoremove --purge ibus-libpinyin -y
-```
-- **Popsicle USB creator** - If you create a live USB, you should keep this tool but, Etcher seems a better option.<br />
-**Get [Etcher](https://www.balena.io/etcher/)** <br />
-```bash
-sudo apt-get remove --purge popsicle* -y
 ```
 
 #### Reverting
@@ -424,84 +411,8 @@ Let the service name be xyz.service
 sudo systemctl unmask xyz.service
 sudo systemctl enable xyz.service
 ```
-### Custom kernel
-Custom Kernels are known and used by fewer people, but these kernels add a significant boost to performance and battery.
-1. **Xanmod** is the more popular choice among intel based hardware. It provides a stable, responsive, and smooth desktop experience. <br />
-To get Xanmod, go [here](https://xanmod.org/)  <br />
-While installing this don't forget to add, **Setting the FQ-PIE Queuing Discipline**. <br />
-
-2. **Liquorix** is a distro kernel replacement built using the best configuration and kernel sources for desktop, multimedia, and gaming workloads. Works better with AMD hardware. <br />
-To get Liquorix, go [here](https://liquorix.net/) <br /> <br />
-
-### Getting rid of Custom Kernel
-**IF YOU ARE A NEW USER AND DON'T KNOW WHAT YOU ARE DOING, PLEASE SEARCH SOME THREADS OR ASK SOMEONE BEFORE TAKING ANY ACTION. BECAUSE THIS IS A VERY RISKY STEP AND CAN POTENTIALLY KILL YOUR SYSTEM.**<br />
-1. Removing the Kernel apt modules <br />
-
-For XanMod
-```bash
-sudo apt autoremove --purge linux-xanmod -y
-```
-
-For Liquorix
-```bash
-sudo apt autoremove --purge linux-image-liquorix-amd64 linux-headers-liquorix-amd64 -y
-```
-2. [XanMod Only] Remove FQ-PIE Queue Discipline for systemd
-```bash
-sudo rm /etc/sysctl.d/90-override.conf
-```
-4. Removing  the Kernel Repos <br />
-
-For XanMod <br />
-Download this [deb](https://dl.xanmod.org/xanmod-repository.deb) and uninstall it. <br />
-
-For Liquorix <br />
-```bash
-sudo add-apt-repository -r ppa:damentz/liquorix
-```
-**Tip: -r can be after or before the repo, so you can also write,**
-```bash
-sudo add-apt-repository ppa:damentz/liquorix -r
-```
-
-5. Getting, name of the Kernel
-```bash
-uname -r
-```
-6. Removing the Kernel
-```bash
-sudo apt remove <kernel name> -y
-```
-7. Getting, remaining Kernel files
-```bash
-apt list --installed *xanmod* *liquorix*
-```
-8. Removing the remaining Kernel files
-```bash
-sudo apt remove <name of kernel files> -y
-```
-
-[Reference of installing and removing XanMod](https://www.reddit.com/r/pop_os/comments/jlrney/psa_installing_and_removing_the_xanmod_kernel_in/) <br />
-
 
 ## 6. Miscellaneous
-### Terminal Mods
-#### 1. [Macchina](https://crates.io/crates/macchina)
-
-Macchina can be installed with cargo, to install cargo simply run:
-```
-sudo apt install cargo
-```
-Then:
-```
-cargo install macchina
-```
-
-![macchina](https://gitlab.com/Shoto31/popos-setup/-/raw/master/images/d.png)
-
-#### 2. Shell Config 
-I'm currently using the [Spaceship prompt](https://github.com/denysdovhan/spaceship-prompt)
-
 
 ### Disable Frequents
 Disable Frequents Tab in Gnome app menu. This option is not required for Gnome > 3.38.
@@ -526,7 +437,7 @@ In my setups I always use the Tile windows feature.
 
 ### Customization
 #### 1. We need to add gnome-shell-integration for Firefox.
-[Gnome Shell Extension](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/)
+[Gnome Shell Extension](https://addons.mozilla.org/pt-PT/firefox/addon/gnome-shell-integration/)
 
 #### 2. Then go to [Gnome.org](https://extensions.gnome.org/) and get your extensions. <br />
 #### Important Extensions
@@ -550,18 +461,3 @@ To get the start button I [have](https://github.com/themagicalmammal/howtopopbun
 
 ## Inspiration
 I decided to do this as a guide mainly for myself,  since I always forget some tweaks, extensions or applications, but my inspiracion was [The Magical Mammal/How to popbuntu] (https://github.com/themagicalmammal/howtopopbuntu#6-resource-monitor) you can check his for a more detailed guide.
-
-
-## Thanks for Suggestions
-1. [GGG_246](https://www.reddit.com/user/GGG_246/) - A lot of stuff I didn't know. To check what he did go [here](https://www.reddit.com/r/Ubuntu/comments/jm1gvw/a_guide_to_setting_up_popubuntu/gasmuhg?utm_source=share&utm_medium=web2x&context=3) & [here](https://www.reddit.com/r/Ubuntu/comments/jm1gvw/a_guide_to_setting_up_popubuntu/gata2s4?utm_source=share&utm_medium=web2x&context=3) & a looooot more stuff.
-2. [schykle](https://www.reddit.com/user/schykle) - Mailspring (fix for dangerous gvfs-bin bug) & Ubiquity auto Swap & GUI updater & Updated Snap instructions.
-3. [wsadES](https://www.reddit.com/user/wsades) - Suggestion about removing unnecessary extension & Pop Shop on boot.
-4. [tur1ngb0x](https://github.com/tur1ngb0x) - For qt5 theme fix & new wine installation steps.
-5. [coolwyou](https://www.reddit.com/user/coolwyou) - For the awesome neofetch config file & shell config.
-6. [spxak1](https://www.reddit.com/user/spxak1/) - Mention Firefox & Chromium-based Bug & Idea about Disclaimer & Reverting back to stock kernel.
-7. [JawadAlkassim](https://www.reddit.com/user/JawadAlkassim/) - Mention opensource & Vivaldi vaapi & Wayland.
-8. [arsfeld](https://www.reddit.com/user/arsfeld) - Information about Encryption and recovery.
-9. [lulzdoods](https://www.reddit.com/user/lulzdoods) - Completing the uninstall guide for the kernel.
-10. [RiderExMachina](https://www.reddit.com/user/RiderExMachina/) - Check out what he said [here](https://www.reddit.com/r/linux4noobs/comments/jqyi1c/want_to_switch_to_ubuntubased_distros_need_a/gbqvrbf?utm_source=share&utm_medium=web2x&context=3)
-11. [1ntr0v3rt3ch](https://www.reddit.com/user/1ntr0v3rt3ch) - For steps for making a swap file.
-12. [rbmorse](https://www.reddit.com/user/rbmorse/) - Practices on a swap.
