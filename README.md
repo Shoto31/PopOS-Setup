@@ -286,6 +286,6 @@ sudo systemctl unmask xyz.service
 sudo systemctl enable xyz.service
 ```
 
-
 ## Inspiration
-I decided to do this as a guide mainly for myself,  since I always forget some tweaks, extensions or applications, but my inspiracion was [The Magical Mammal/How to popbuntu] (https://github.com/themagicalmammal/howtopopbuntu#6-resource-monitor) you can check his for a more detailed guide.
+I decided to do this as a guide mainly for myself,  since I always forget some tweaks, extensions or applications, but my inspiracion was [The Magical Mammal/howtolinux] (https://github.com/themagicalmammal/howtolinux) you can check his for a more detailed guide.
+
