@@ -1,31 +1,3 @@
-# Index
-
-## [Post Installation](#1-post-installation)
-- **[Update your System](#update-your-system)**
-- **[System Tweaks](#system-tweaks)**
-
-## [Preferred Apps](#2-preferred-apps)
-- **[Browser](#browser) -> [Firefox](#1-firefox)**
-- **[Video Tools](#video-tools) -> [VLC](#1-vlc)**
-- **[Office](#office) -> [Libre Office](#1-libreoffice)**
-- **[Programming Apps](#programming-apps) -> [Vim](#1-vim), [VSCode](#2-vscode)**
- , [Multimedia Codecs](#3-multimedia-codecs), [Lutris](#4-lutris)**
-- **[Other Apps](#other-apps) ->  [Synaptic](#1-synaptic-package-manager), [Nautilus](#2-nautilus-admin-mode), [Timeshift](#3-timeshift), [Firewall](#4-firewall),[Steam](#5-steam-for-gaming)**
-- **[Debloat](#--debloat)**
-
-## [Optimize Boot-time & Ram Usage](#3-optimize-boot-time--ram-usage)
-- **[Disabling Plymouth](#disabling-plymouth)**
-- **[Adjusting the Swappiness Property](#adjusting-the-swappiness-property)**
-- **[Adjusting the Cache Pressure](#adjusting--the-cache-pressure-setting)**
-- **[Disable Pop Shop on boot](#disabling-pop-shop-on-boot)**
-- **[Clearing buff/cache](#clearing-buffcache)**
-- **[Optimizing the boot](#optimizing-the-boot)**
-- **[Removing Custom Kernel](#getting-rid-of-custom-kernel)**
-- **[Final Boot-Time](#final-boot-time)**
-
-
-## [Inspiration](#Inspiration)
-
 ## 1. Post Installation
 These are some of the things I do after a fresh install of PopOs.
 
