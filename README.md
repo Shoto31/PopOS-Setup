@@ -53,20 +53,18 @@ gsettings set org.gnome.desktop.privacy remember-app-usage false #Disable Freque
 ## 2. Apps that I install on any machine
 
 ### Browser
-#### 1. [Firefox](https://www.mozilla.org/en-US/firefox/new/) #By default Firefox comes pre installed in any of the distros I tried so you don't need to install anything. <br />
+#### 1. [Firefox](https://www.mozilla.org/en-US/firefox/new/) - By default Firefox comes pre installed in any of the distros I tried so you don't need to install anything. <br />
 The Browser that I use in any of my setups is always Firefox, and it's an amazing browser, it helps that I am currently trying to take anything related to Google out of my setups. <br />
 
 
 ### Video Tools
 #### 1. [VLC](https://www.videolan.org/index.html)
-VLC is the best video player for any platform
-```bash
-sudo apt install vlc  -y
-```
 
-Get rid of the stock video player
 ```bash
-sudo apt-get autoremove --purge totem* -y
+sudo apt install vlc  -y #VLC is the best video player for any platform
+```
+```bash
+sudo apt-get autoremove --purge totem* -y #Get rid of the stock video player
 ```
 
 ### Office Suite 
@@ -86,24 +84,24 @@ Since I'm in PopOS I just go to the VSCode website and download the .deb file fr
 
 ### Other Apps
 #### 1. Synaptic Package manager
-Synaptic serves as a graphical front-end to APT which makes the process of software management easier.
+ 
 ```bash
-sudo apt install synaptic -y
+sudo apt install synaptic -y #serves as a graphical front-end to APT which makes the process of software management easier.
 ```
 #### 2. Nautilus (admin mode)
-Adds right-click property *Open as Administrator*
+
 ```bash
-sudo apt install nautilus-admin -y && nautilus -q
+sudo apt install nautilus-admin -y && nautilus -q #Adds right-click property *Open as Administrator*
 ```
 #### 3. Timeshift
-Timeshift is a system restore tool for Linux. Creates a file system snapshot using rsync+hard links or BTRFS snapshots.
+
 ```bash
-sudo apt install timeshift -y
+sudo apt install timeshift -y #System restore tool for Linux in case anything goes wrong.
 ```
 #### 4. Firewall
 GUFW is a graphical utility for managing Uncomplicated Firewall (UFW). This is pretty easy to use appication with bunch of settings which you can set according to your preference.
 ```bash
-sudo apt install gufw
+sudo apt install gufw # Graphical utility for managing Uncomplicated Firewall (UFW).Pretty easy to setup 
 ```
 #### 5. Steam for Gaming
 ```bash
@@ -115,6 +113,7 @@ sudo add-apt-repository multiverse && sudo apt update
 ```
 
 I also use [Glorious Eggroll] (https://github.com/GloriousEggroll/proton-ge-custom) build of proton.
+
 ## Debloat
 ###### Remove useless stuff that you do not need.  Please, read what it does before you remove them.
 
