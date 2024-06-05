@@ -1,4 +1,4 @@
-## 1. Post Installation
+## I. Post Installation
 These are some of the things I do after a fresh install of PopOs.
 
 ### Update the system
@@ -22,7 +22,7 @@ gsettings set org.gnome.desktop.privacy remember-app-usage false #Disable Freque
 
 ```
 
-## 2. Apps that I install on any machine
+## II. Apps that I install on any machine
 
 ### Browser
 #### 1. [Firefox](https://www.mozilla.org/en-US/firefox/new/) - By default Firefox comes pre installed in any of the distros I tried so you don't need to install anything. <br />
@@ -86,7 +86,7 @@ sudo add-apt-repository multiverse && sudo apt update
 
 I also use [Glorious Eggroll] (https://github.com/GloriousEggroll/proton-ge-custom) build of proton.
 
-## Debloat
+## III. Debloat
 ###### Remove useless stuff that you do not need.  Please, read what it does before you remove them.
 
 - **Calendar** - I put this on a list because I never need the Calendar on desktop
@@ -258,6 +258,6 @@ sudo systemctl unmask xyz.service
 sudo systemctl enable xyz.service
 ```
 
-## Inspiration
+## IV. Inspiration
 I decided to do this as a guide mainly for myself,  since I always forget some tweaks, extensions or applications, but my inspiracion was [The Magical Mammal/howtolinux] (https://github.com/themagicalmammal/howtolinux) you can check his for a more detailed guide.
 
